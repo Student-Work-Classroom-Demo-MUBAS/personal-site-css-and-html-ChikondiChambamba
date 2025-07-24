@@ -272,3 +272,35 @@
             margin-bottom: 30px;
             font-weight: 600;
         }
+
+                .hire-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+        
+        .hire-item {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        .hire-item:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: scale(1.05);
+        }
+
+                
+        .hire-item h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+        
+        /* Portfolio section */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
