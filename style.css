@@ -94,7 +94,7 @@
         .foreground-png {
         position: absolute;
         top: 50%;
-        right:0%;
+        right:0;
         transform: translate(-50%, -50%);  /* Perfectly centers image */
         z-index: 2;                 /* Higher layer: image sits on top of text */
         height: 300px;
@@ -245,4 +245,30 @@
         .project-item h3 {
             font-size: 1.2rem;
             margin-bottom: 15px;
+        }
+
+        .experience-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        
+        .experience-item p {
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+                /* Why hire section */
+        .hire-section {
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            padding: 30px;
+            border-radius: 8px;
+            color: white;
+        }
+        
+        .hire-title {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
         }
