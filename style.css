@@ -167,4 +167,17 @@
         z-index: 1;                 /* Lower layer */
         }
 
+        .portfolio-item {
+            background: #ecf0f1;
+            padding: 20px;
+            height: 200px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
