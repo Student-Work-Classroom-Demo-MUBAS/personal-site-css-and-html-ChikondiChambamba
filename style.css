@@ -1,0 +1,47 @@
+        .button-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px   ;
+
+        }   
+            .hello-button {
+            border: 2px solid #000;      /* 2px black border */
+            background-color: #fff;      /* White background */
+            color: #000;                 /* Black text */
+            padding: 12px 24px;          /* Space inside the button */
+            font-size: 20px;             
+            cursor: pointer;
+            border-radius: 20px
+            }
+
+            .hello-button:hover {
+            background-color: #ee0f0f;   /* Slight gray on hover */
+            }
+
+             /* Main navigation styles */
+        ul {
+            height: 60px;
+            line-height: 30px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000000;
+            border-radius: 30px;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 80px;
+            text-decoration: none;
+            font-size: larger;
+            border-radius: 30px;   /* Each nav item gets rounded edges */
+
+        }
