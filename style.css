@@ -194,3 +194,17 @@
             transition: opacity 0.3s ease;
         }
         
+                .portfolio-item:hover::before {
+            opacity: 1;
+        }
+        
+        .portfolio-item:hover {
+            transform: translateY(-8px);
+        }
+        
+        .portfolio-item h3 {
+            position: relative;
+            z-index: 2;
+            color: #2c3e50;
+            font-weight: 600;
+        }
