@@ -133,3 +133,36 @@
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 25px;
         }
+
+                /* Portfolio section */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .header {
+        position: relative;         /* Creates a stacking context for absolute positioning */
+        height: 300px;              /* Adjust as needed */
+        background-color: #eee;
+        text-align: center;
+        overflow: hidden;           /* Keeps content neatly contained */
+        }
+
+        
+        .background-text {
+        font-size: 30px;
+        color: #000000;
+        position: relative;
+        z-index: 1;                 /* Lower layer */
+        }
+
+        .foreground-png {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);  /* Perfectly centers image */
+        z-index: 2;                 /* Higher layer: image sits on top of text */
+        height: 300px;
+        width: 250px;               /* Adjust size to fit your layout */
+        }
