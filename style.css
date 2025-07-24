@@ -406,4 +406,44 @@
             font-size: 1.2rem;
             margin-bottom: 15px;
         }
+
+                .connect-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
         
+        /* Responsive design */
+        @media (max-width: 992px) {
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .hire-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+                @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .header h2 {
+                font-size: 1.5rem;
+            }
+        
+                       
+            .experience-grid, 
+            .project-grid,
+            .connect-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
