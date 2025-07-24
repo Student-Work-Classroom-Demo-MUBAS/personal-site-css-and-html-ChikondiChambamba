@@ -1,4 +1,30 @@
-        .button-wrapper {
+               /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+                /* Main layout styles */
+        body {
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto; /* Centers the body content */
+        }
+        
+        .container {
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 40px;
+            height: auto;
+            border-radius: 0px;
+        }
+       
+       .button-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,7 +71,7 @@
             border-radius: 30px;   /* Each nav item gets rounded edges */
 
         }
-        
+
         /* Change the link color to on hover */
         li a:hover {
             background-color: #A31621;
