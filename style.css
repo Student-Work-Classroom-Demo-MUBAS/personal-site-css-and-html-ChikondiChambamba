@@ -388,3 +388,22 @@
             margin-bottom: 30px;
             font-weight: 600;
         }
+
+                .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .project-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .project-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        
