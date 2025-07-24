@@ -91,6 +91,16 @@
             margin: 30px 0;
         }
         
+        .foreground-png {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);  /* Perfectly centers image */
+        z-index: 2;                 /* Higher layer: image sits on top of text */
+        height: 300px;
+        width: 250px;               /* Adjust size to fit your layout */
+        }
+
         /* Header styles */
         .header h1 {
             font-size: 3.5rem;
@@ -157,12 +167,4 @@
         z-index: 1;                 /* Lower layer */
         }
 
-        .foreground-png {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);  /* Perfectly centers image */
-        z-index: 2;                 /* Higher layer: image sits on top of text */
-        height: 300px;
-        width: 250px;               /* Adjust size to fit your layout */
-        }
+
