@@ -45,3 +45,12 @@
             border-radius: 30px;   /* Each nav item gets rounded edges */
 
         }
+        
+        /* Change the link color to on hover */
+        li a:hover {
+            background-color: #A31621;
+            padding: 14px 80px;
+            transform: scale(1.1);         /* Enlarges the element by */
+            transition: transform 0.3s ease;
+
+        }
