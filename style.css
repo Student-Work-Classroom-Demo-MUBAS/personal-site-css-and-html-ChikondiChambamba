@@ -12,7 +12,8 @@
             color: #333;
             line-height: 1.6;
             padding: 20px;
-            max-width: 1200px;
+            max-width: auto; /* Centers the body content */
+            width: 100%;
             margin: 0 auto; /* Centers the body content */
         }
         
@@ -45,17 +46,20 @@
             background-color: #ee0f0f;   /* Slight gray on hover */
             }
 
-             /* Main navigation styles */
-        ul {
-            height: 60px;
-            line-height: 30px;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #000000;
-            border-radius: 30px;
-        }
+            ul {
+                height: 60px;
+                max-width: 1120px; /* Keeps nav bar from stretching too wide */
+                width: 100%;
+                line-height: 30px;
+                list-style-type: none;
+                margin: 0 auto; /* Centers the nav bar horizontally */
+                padding: 0;
+                overflow: hidden;
+                background-color: #000000;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center; /* Centers nav items inside the bar */
+            }
 
         li {
         float: left;
