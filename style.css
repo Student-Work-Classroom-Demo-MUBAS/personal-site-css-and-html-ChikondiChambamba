@@ -128,6 +128,7 @@
         .header h1 {
             font-size: 3.5rem;
             font-weight: 700;
+            width: 100% ;
             margin-bottom: 10px;
             text-align: center;
             color: #ff0000;
@@ -367,13 +368,13 @@
             bottom: 0%;
             transform: translate(-50%, -50%);
             z-index: 2; /* Higher layer: image sits on top of text */
-            height: 400px;
+            height: 392px;
             width: 350px; /* Adjust size to fit your layout */
         }
 
         .background-text {
         font-size: 30px;
-        color: #000000;
+        color: #fefefe;
         position: relative;
         z-index: 1;                 /* Lower layer */
         }
