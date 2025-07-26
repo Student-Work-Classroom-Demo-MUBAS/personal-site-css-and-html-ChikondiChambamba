@@ -11,10 +11,10 @@
             background-color: #ffffff;
             color: #333;
             line-height: 1.6;
-            padding: 20px;
+            /*padding: 0px;*/
             max-width: auto; /* Centers the body content */
             width: 100%;
-            margin: 0 auto; /* Centers the body content */
+            /*margin: 0 auto; /* Centers the body content */
         }
         
         .container {
@@ -110,6 +110,7 @@
             font-size: 3.5rem;
             font-weight: 700;
             margin-bottom: 10px;
+            text-align: center;
             color: #2c3e50;
         }
         
@@ -141,14 +142,38 @@
             padding-left: 15px;
         }
         
-        /* Work experience section */
+            /* Work experience section */
         .experience-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 25px;
         }
+        
+        .experience-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 3px solid #3498db;
+            transition: transform 0.3s ease;
+        }
+        
+        .experience-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .experience-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        
+        .experience-item p {
+            color: #7f8c8d;
+            font-weight: 300;
+        }
 
-                /* Portfolio section */
+         /* Portfolio section */
         .portfolio-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
