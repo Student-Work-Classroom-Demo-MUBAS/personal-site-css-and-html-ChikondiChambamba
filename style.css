@@ -8,17 +8,18 @@
 
                 /* Main layout styles */
         body {
-            background-color: #ffffff;
+            background-color: #ffdada;
             color: #333;
             line-height: 1.6;
-            /*padding: 0px;*/
+            padding: 20px;
+            max-height: fit-content; /* Allows the body to expand with content */
             max-width: auto; /* Centers the body content */
             width: 100%;
             /*margin: 0 auto; /* Centers the body content */
         }
         
         .container {
-            background-color: white;
+            background-color: rgb(0, 0, 0);
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
             padding: 0px;
             height: auto;
@@ -111,7 +112,7 @@
             font-weight: 700;
             margin-bottom: 10px;
             text-align: center;
-            color: #2c3e50;
+            color: #ffffff;
         }
         
         .header h2 {
@@ -144,6 +145,7 @@
         
             /* Work experience section */
         .experience-grid {
+            padding-top: 50px;
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 25px;
@@ -179,16 +181,7 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
         }
-
-        .header {
-        position: relative;         /* Creates a stacking context for absolute positioning */
-        height: 300px;              /* Adjust as needed */
-        background-color: #eee;
-        text-align: center;
-        overflow: hidden;           /* Keeps content neatly contained */
-        }
-
-        
+   
         .background-text {
         font-size: 30px;
         color: #000000;
@@ -334,12 +327,30 @@
             gap: 20px;
         }
 
-        .header {
-        position: relative;         /* Creates a stacking context for absolute positioning */
-        height: 300px;              /* Adjust as needed */
-        background-color: #eee;
-        text-align: center;
-        overflow: hidden;           /* Keeps content neatly contained */
+                /* Half Circle */
+        /*.Semi-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            bottom: 0%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 250px;
+            background-color: red;
+            border-radius: 250px 250px 0 0; /* Top half of a circle 
+            z-index: 1;
+        }*/
+
+        /* PNG in front of circle */
+        .foreground-png {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            bottom: 0%;
+            transform: translate(-50%, -50%);
+            z-index: 2; /* Higher layer: image sits on top of text */
+            height: 400px;
+            width: 350px; /* Adjust size to fit your layout */
         }
 
         .background-text {
@@ -349,15 +360,7 @@
         z-index: 1;                 /* Lower layer */
         }
 
-        .foreground-png {
-        position: absolute;
-        top: 50%;
-        right: 0%;
-        transform: translate(-50%, -50%);  /* Perfectly centers image */
-        z-index: 2;                 /* Higher layer: image sits on top of text */
-        height: 300px;
-        width: 250px;               /* Adjust size to fit your layout */
-        }
+
         
             .portfolio-item {
             background: #ecf0f1;
