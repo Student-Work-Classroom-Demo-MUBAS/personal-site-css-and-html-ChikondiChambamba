@@ -194,7 +194,7 @@
             transition: opacity 0.3s ease;
         }
         
-                .portfolio-item:hover::before {
+            .portfolio-item:hover::before {
             opacity: 1;
         }
         
