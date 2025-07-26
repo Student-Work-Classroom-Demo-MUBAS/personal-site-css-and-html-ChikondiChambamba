@@ -2,14 +2,16 @@
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            box-sizing:border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
         }
 
                 /* Main layout styles */
         body {
-            background-color: #ffdada;
-            color: #333;
+            background-color: #fab6b6;
+            color: #ffffff;
+            justify-content: right;
             line-height: 1.6;
             padding: 20px;
             max-height: fit-content; /* Allows the body to expand with content */
@@ -23,9 +25,25 @@
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
             padding: 0px;
             height: auto;
-            border-radius: 0px;
+            border-radius: 30px;
         }
        
+        .paragraph {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 90%; /* Sets a maximum width for the paragraph */
+            margin: 0 auto; /* Centers the paragraph */
+            right: 20%;
+            padding: 20px;
+            background-color: #fab6b6; /* Light background for readability */
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: #ecf0f1 0px 0px 10px 0px; /* Subtle shadow for depth */
+            
+        }
        .button-wrapper {
         display: flex;
         justify-content: center;
@@ -92,7 +110,7 @@
         
         hr {
             border: 0;
-            border-top: 2px solid #e0e0e0;
+            border-top: 2px solid #f70202;
             margin: 30px 0;
         }
         
@@ -112,7 +130,7 @@
             font-weight: 700;
             margin-bottom: 10px;
             text-align: center;
-            color: #ffffff;
+            color: #ff0000;
         }
         
         .header h2 {
@@ -360,8 +378,6 @@
         z-index: 1;                 /* Lower layer */
         }
 
-
-        
             .portfolio-item {
             background: #ecf0f1;
             padding: 20px;
