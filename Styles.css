@@ -141,3 +141,17 @@ header nav a:hover{
   flex-wrap: wrap;
   gap: 2rem;
 }
+
+.project {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 6px;
+  width: 530px;
+  text-align: left;
+}
+
+.project img {
+  width: 500px;
+  height: 400px;
+  border-radius: 6px;
+}
