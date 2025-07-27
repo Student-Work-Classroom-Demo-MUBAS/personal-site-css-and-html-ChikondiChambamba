@@ -123,3 +123,9 @@ header nav a:hover{
     margin-bottom: 1rem;
 }
 
+.projects {
+  padding: 4rem 2rem;
+  background: white;
+  margin-right: 60px;
+  text-align: center;
+}
