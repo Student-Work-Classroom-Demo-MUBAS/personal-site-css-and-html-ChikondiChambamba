@@ -36,8 +36,8 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #8000ff;
-    border: 2px solid #8000ff;
+    color: #ffffff;
+    border: 2px solid #ffffff;
     transform: scale(1.1);
 }
 
@@ -52,7 +52,6 @@ header nav a:hover {
 .hero-text {
     max-width: 50%;
     margin-left: 10rem;
-
 }
 
 .hero-text h1 {
@@ -83,7 +82,7 @@ header nav a:hover {
 }
 
 .btn:hover {
-    background: #8000ff;
+    background: #60030a;
     color: #fff;
 }
 
@@ -114,24 +113,25 @@ header nav a:hover {
 }
 
 .about {
-  background: #1c1c1c;
-  color: white;
-  padding: 8rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: wrap;
+    background: #1c1c1c;
+    color: white;
+    padding: 8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about-img img {
-  width: 400px;
-  height: auto;
-  margin-left: 150px;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
 }
 
 .about-text {
     max-width: 80%;
     text-align: justify;
-    margin-right: 100px;
+    margin-right: auto;
     margin-left: 50px;
 }
 
@@ -143,6 +143,7 @@ header nav a:hover {
 
 
 .projects {
+  display: wrap;
   padding: 4rem 2rem;
   background: white;
   margin-right: 60px;
@@ -151,7 +152,16 @@ header nav a:hover {
 
 .projects h2 {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 15px;
+}
+
+.divider {
+  width: 100px;
+  height: 4px;
+  background: #A31621;
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-bottom: 50px;
 }
 
 .project-list {
@@ -175,11 +185,17 @@ header nav a:hover {
   border-radius: 6px;
 }
 
+.project img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .project h3 {
   margin: 1rem 0 0.5rem;
 }
 
 .contact {
+  display: flex;
   background: #1c1c1c;
   color: white;
   padding: 4rem 2rem;
@@ -198,10 +214,19 @@ header nav a:hover {
   margin-left: 20px;
 }
 
+.contact-info .divider {
+  width: 100px;
+  height: 4px;
+  background: #A31621;
+  /*margin: 0 auto;*/
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
 .contact-info .socials a {
   display: inline-block;
   margin-right: 1rem;
-  color: #8000ff;
+  color: #1977fb;
   text-decoration: none;
   margin-left: 20px;
 }
