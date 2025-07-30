@@ -206,6 +206,10 @@ header nav a:hover {
   scroll-snap-type: x mandatory;
   scroll-padding-left: 20px;
 }
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .White {
   background-image: url("images\mywork3.png");
@@ -223,10 +227,10 @@ header nav a:hover {
   display: inline-block;
   margin: 2px;
   scroll-snap-align: start;
+}
 
 
-.contact-info {
-  display: flex;
+.contact {
   background: #1c1c1c;
   color: white;
   padding: 4rem 2rem;
@@ -241,6 +245,7 @@ header nav a:hover {
 }
 
 .contact-info h2 {
+  align-content: center;
   margin-bottom: 1rem;
   margin-left: 20px;
 }
