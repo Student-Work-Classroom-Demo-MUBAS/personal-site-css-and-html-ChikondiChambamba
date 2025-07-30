@@ -201,22 +201,6 @@ header nav a:hover {
   margin: 1rem 0 0.5rem;
 }
 
-.container {
-  width: 95%;
-  aspect-ratio: 2/1;
-  margin: auto;
-  margin-bottom: 10px;
-  border: solid black 2px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  scroll-snap-type: x mandatory;
-  scroll-padding-left: 20px;
-}
-.container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
 .contact {
   display: grid;
