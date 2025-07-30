@@ -44,6 +44,7 @@ header nav a:hover {
 .hero {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding: 6rem 2rem;
   background: white;
@@ -98,6 +99,7 @@ header nav a:hover {
 }*/
 
 .hero-img img {
+    margin-top: 60px;
     margin-right: 80px;
     width: 500px;
     height: 100%;
@@ -114,7 +116,7 @@ header nav a:hover {
 
 .about {
     display: wrap;
-    
+    flex-wrap:nowrap;
     background: #1c1c1c;
     color: white;
     padding: 8rem 2rem;
@@ -196,7 +198,7 @@ header nav a:hover {
 }
 
 .container {
-  width: 100%;
+  width: 95%;
   aspect-ratio: 2/1;
   margin: auto;
   border: solid black 2px;
@@ -211,8 +213,8 @@ header nav a:hover {
   margin-bottom: 20px;
 }
 
-.White {
-  background-image: url("images\mywork3.png");
+.blue {
+  background-color: lightcoral;
   height: 95%;
   aspect-ratio: 3/2;
 }
@@ -236,7 +238,7 @@ header nav a:hover {
   padding: 4rem 2rem;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .contact-info {
@@ -245,7 +247,7 @@ header nav a:hover {
 }
 
 .contact-info h2 {
-  align-content: center;
+  text-align: center;
   margin-bottom: 1rem;
   margin-left: 20px;
 }
