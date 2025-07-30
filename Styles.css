@@ -127,14 +127,17 @@ header nav a:hover {
 }
 
 .about-img img {
-    width: 400px;
+    display: wrap;
+    width: 500px;
     height: auto;
+    padding:10px;
     margin-left: auto;
 }
 
 .about-text {
     max-width: 80%;
     text-align: justify;
+    padding: 10px;
     margin-right: auto;
     margin-left: 50px;
 }
@@ -202,6 +205,7 @@ header nav a:hover {
   width: 95%;
   aspect-ratio: 2/1;
   margin: auto;
+  margin-bottom: 10px;
   border: solid black 2px;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -214,26 +218,8 @@ header nav a:hover {
   margin-bottom: 20px;
 }
 
-.blue {
-  background-color: lightcoral;
-  height: 95%;
-  aspect-ratio: 3/2;
-}
-
-.green {
-  background-color: lightgreen;
-  height: 80%;
-  aspect-ratio: 4/3;
-}
-
-.blue, .green {
-  display: inline-block;
-  margin: 2px;
-  scroll-snap-align: start;
-}
-
-
 .contact {
+  display: grid;
   background: #1c1c1c;
   color: white;
   padding: 4rem 2rem;
