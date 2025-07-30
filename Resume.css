@@ -40,3 +40,22 @@ header nav a:hover {
 header nav a active{
     text-decoration: underline;
 }
+
+.resume-section {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.resume-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #A31621;
+}
+
+.resume-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
