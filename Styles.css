@@ -114,6 +114,7 @@ header nav a:hover {
 
 .about {
     display: wrap;
+    
     background: #1c1c1c;
     color: white;
     padding: 8rem 2rem;
@@ -194,7 +195,37 @@ header nav a:hover {
   margin: 1rem 0 0.5rem;
 }
 
-.contact {
+.container {
+  width: 100%;
+  aspect-ratio: 2/1;
+  margin: auto;
+  border: solid black 2px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 20px;
+}
+
+.White {
+  background-image: url("images\mywork3.png");
+  height: 95%;
+  aspect-ratio: 3/2;
+}
+
+.green {
+  background-color: lightgreen;
+  height: 80%;
+  aspect-ratio: 4/3;
+}
+
+.blue, .green {
+  display: inline-block;
+  margin: 2px;
+  scroll-snap-align: start;
+
+
+.contact-info {
   display: flex;
   background: #1c1c1c;
   color: white;
