@@ -52,7 +52,7 @@ header nav a:hover {
 
 .hero-text {
     max-width: 50%;
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
 
 .hero-text h1 {
@@ -104,6 +104,7 @@ header nav a:hover {
     width: 500px;
     height: 100%;
     background-color: #60030a;
+    background-blend-mode: color;
     object-fit: cover;
     border-radius: 100%;
     display: block;
