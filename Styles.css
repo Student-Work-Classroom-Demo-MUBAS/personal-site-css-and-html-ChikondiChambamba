@@ -193,7 +193,7 @@ header nav a:hover {
 /* Contact Section */
 .contact {
     padding: 10px 50px;
-    background-color:#A31621;
+    background-color:#1c1c1c
 }
 
 .contact-info {
@@ -248,10 +248,10 @@ header nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #1c1c1c;
+  background-color: #A31621;
   color: #ffffff;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   font-size: 1.1rem;
 }
 
