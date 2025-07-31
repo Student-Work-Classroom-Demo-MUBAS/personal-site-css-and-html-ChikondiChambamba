@@ -84,6 +84,7 @@ header nav a:hover {
 
 .btn:hover {
     background: #60030a;
+    transform: translateY(-3px);
     color: #fff;
 }
 
@@ -229,7 +230,7 @@ header nav a:hover {
   background-color: #880000;
   color: white;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 4px;
   font-weight: 500;
   transition: all 0.3s;
   display: flex;
@@ -238,7 +239,7 @@ header nav a:hover {
 }
 
 .socials a:hover {
-  background: var(--secondary);
+  background:#60030a;
   transform: translateY(-3px);
 }
 
