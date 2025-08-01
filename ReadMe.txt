@@ -22,3 +22,8 @@ CSS3: For all styling, layout, and visual enhancements.
 Font Awesome: For the social media icons and other visual elements.
 
 Figma: The tool used to design the UI/UX for the showcased projects.
+
+Problems during the developing this website are
+1. difficulty in making the image resizable
+2. adding icons to the website.
+3. using media query to resize the website under different sizes
