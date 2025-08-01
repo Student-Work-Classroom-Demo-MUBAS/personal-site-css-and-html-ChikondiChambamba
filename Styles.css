@@ -65,7 +65,10 @@ header nav a:hover {
     color: #A31621;
     margin: 1rem 0;
 }
-
+.herp-text h3{
+  text-align: center;
+  color: #1c1c1c;
+}
 .hero-text h2:hover {
     color: #880000;
     text-decoration: underline;
@@ -159,7 +162,7 @@ header nav a:hover {
   background: #A31621;
   margin: 0 auto;
   border-radius: 2px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .project-list {
