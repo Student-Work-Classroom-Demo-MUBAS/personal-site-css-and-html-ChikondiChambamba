@@ -89,3 +89,95 @@ header nav a.active {
     border-radius: 4px;
     font-size: 0.95rem;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+    background-color: #A31621;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav a.active {
+    text-decoration: underline;
+}
+
+.resume-section {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.resume-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #A31621;
+}
+
+.resume-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.resume-block {
+    margin-bottom: 2rem;
+}
+
+.resume-block h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-left: 5px solid #A31621;
+    padding-left: 10px;
+}
+
+.resume-block ul {
+    text-align: justify;
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.resume-block li {
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+.skills-list li {
+    background-color: #eee;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
